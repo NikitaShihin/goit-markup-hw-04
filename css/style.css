@@ -121,7 +121,7 @@ img {
 
 .header-link {
   display: block;
-  color: #2e2f42;
+  color: #404bbf;
   /* Body Medium */
   font-size: 16px;
   font-weight: 500;
@@ -248,7 +248,7 @@ img {
   cursor: pointer;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -295,6 +295,8 @@ button:focus {
 
 .benefits-wrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
@@ -303,6 +305,8 @@ button:focus {
   width: 264px;
   height: 112px;
   flex-shrink: 0;
+
+  margin-bottom: 8px;
 }
 
 .benefits-icon {
@@ -406,7 +410,6 @@ button:focus {
 .social-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link {
@@ -419,6 +422,8 @@ button:focus {
   border-radius: 50%;
 
   color: #f4f4fd;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-ikonik {
@@ -531,7 +536,7 @@ button:focus {
 }
 
 .footer-section {
-  margin-left: 120px;
+  margin-right: 120px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -557,6 +562,7 @@ button:focus {
   letter-spacing: 0.02em;
   max-width: 264px;
   display: block;
+  margin-bottom: 16px;
 }
 
 .wrapper-footer {
@@ -569,8 +575,6 @@ button:focus {
 .footer-item {
   width: 40px;
   height: 40px;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -583,6 +587,8 @@ button:focus {
   border-radius: 50%;
   color: #f4f4fd;
   margin-top: 16px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
@@ -601,4 +607,5 @@ button:focus {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
