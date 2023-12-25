@@ -121,7 +121,7 @@ img {
 
 .header-link {
   display: block;
-  color: #404bbf;
+  color: #2e2f42;
   /* Body Medium */
   font-size: 16px;
   font-weight: 500;
@@ -161,6 +161,11 @@ img {
   width: 48px;
   height: 4px;
 }
+
+.active {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 
@@ -447,7 +452,6 @@ button:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -476,7 +480,7 @@ button:focus {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item :hover .overlay {
+.portfolio-item:hover .overlay {
   transform: translateY(0);
 }
 
@@ -564,7 +568,6 @@ button:focus {
 }
 
 .wrapper-footer {
-  margin-left: 120px;
 }
 .footer-social {
   display: flex;
@@ -584,7 +587,6 @@ button:focus {
   background-color: #4d5ae5;
   border-radius: 50%;
   color: #f4f4fd;
-  margin-top: 16px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
